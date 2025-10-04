@@ -1,0 +1,53 @@
+[
+  {
+    "order_id": "0101",
+    "customer_name": "Alice",
+    "order_date": { "$date": "2024-04-01T00:00:00Z" },
+    "items": [
+      { "product_name": "Keyboard", "price": 1500 },
+      { "product_name": "Mouse", "price": 700 }
+    ]
+  },
+  {
+    "order_id": "0102",
+    "customer_name": "Alice",
+    "order_date": { "$date": "2024-04-03T00:00:00Z" },
+    "items": [
+      { "product_name": "Monitor", "price": 4000 }
+    ]
+  },
+  {
+    "order_id": "0103",
+    "customer_name": "Bob",
+    "order_date": { "$date": "2024-04-02T00:00:00Z" },
+    "items": [
+      { "product_name": "Laptop", "price": 5000 },
+      { "product_name": "Mouse", "price": 700 }
+    ]
+  },
+  {
+    "order_id": "0104",
+    "customer_name": "Charlie",
+    "order_date": { "$date": "2024-04-05T00:00:00Z" },
+    "items": [
+      { "product_name": "Keyboard", "price": 1500 },
+      { "product_name": "Headphones", "price": 1200 }
+    ]
+  },
+  {
+    "order_id": "0105",
+    "customer_name": "Bob",
+    "order_date": { "$date": "2024-04-06T00:00:00Z" },
+    "items": [
+      { "product_name": "Monitor", "price": 4000 }
+    ]
+  },
+  {
+    "order_id": "0106",
+    "customer_name": "Alice",
+    "order_date": { "$date": "2024-04-07T00:00:00Z" },
+    "items": [
+      { "product_name": "Webcam", "price": 800 }
+    ]
+  }
+]
