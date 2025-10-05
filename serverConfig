@@ -14,6 +14,12 @@ MONGO_URI=mongodb://localhost:27017/inventoryDB
 ngrok http 3000
 
 curl -i -H "Authorization: Bearer my-secret-token-abc123" https://abcd-1234.ngrok.io/v1/product/P1001
+curl -X GET https://abcd-1234.ngrok-free.app/api/products \
+  -H "Authorization: Bearer my-secret-token-abc123"
+
+curl -X GET https://abcd-1234.ngrok-free.app/api/products/P1001 \
+  -H "Authorization: Bearer my-secret-token-abc123"
+
 
 ---------------------------------------
 33d1GaW3agD8avpcbQ7jdNC3UOP_6PghXU4ifbwLoaNvSaBVL
