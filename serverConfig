@@ -12,3 +12,6 @@ API_TOKEN=my-secret-token-abc123
 ngrok http 3000
 
 curl -i -H "Authorization: Bearer my-secret-token-abc123" https://abcd-1234.ngrok.io/v1/product/P1001
+
+---------------------------------------
+33d1GaW3agD8avpcbQ7jdNC3UOP_6PghXU4ifbwLoaNvSaBVL
