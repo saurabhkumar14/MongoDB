@@ -21,5 +21,38 @@ curl -X GET https://abcd-1234.ngrok-free.app/api/products/P1001 \
   -H "Authorization: Bearer my-secret-token-abc123"
 
 
+
+
+
+---------------user3 ----------------
+db.products.insertOne({
+    productid: "P1001",
+    productName: "Wireless Mouse",
+    stock: 150,
+    price: 599.99,
+    category: "Electronics"
+})
+
+-------------
+
+db.products.insertMany([
+  {
+    productid: "P1002",
+    productName: "Keyboard",
+    stock: 100,
+    price: 299.99,
+    category: "Electronics"
+  },
+  {
+    productid: "P1003",
+    productName: "USB-C Cable",
+    stock: 300,
+    price: 199.99,
+    category: "Accessories"
+  }
+])
+
+
+
 ---------------------------------------
 33d1GaW3agD8avpcbQ7jdNC3UOP_6PghXU4ifbwLoaNvSaBVL
