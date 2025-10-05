@@ -1,0 +1,37 @@
+[
+  {
+    "productid": "P2001",
+    "productName": "Gaming Laptop",
+    "stock": 50,
+    "price": 89999.00,
+    "category": "Electronics"
+  },
+  {
+    "productid": "P2002",
+    "productName": "Smartwatch",
+    "stock": 120,
+    "price": 14999.99,
+    "category": "Wearables"
+  },
+  {
+    "productid": "P2003",
+    "productName": "Wireless Earbuds",
+    "stock": 200,
+    "price": 3999.50,
+    "category": "Accessories"
+  },
+  {
+    "productid": "P2004",
+    "productName": "Office Chair",
+    "stock": 80,
+    "price": 7499.00,
+    "category": "Furniture"
+  },
+  {
+    "productid": "P2005",
+    "productName": "LED Desk Lamp",
+    "stock": 150,
+    "price": 1299.00,
+    "category": "Home Essentials"
+  }
+]
