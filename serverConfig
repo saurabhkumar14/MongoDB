@@ -1,0 +1,11 @@
+mkdir secure-mock && cd secure-mock
+npm init -y
+npm i express dotenv
+
+-----------------------------------
+
+PORT=3000
+API_TOKEN=my-secret-token-abc123
+
+
+---------------------------------
