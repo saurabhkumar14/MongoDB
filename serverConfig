@@ -55,4 +55,34 @@ db.products.insertMany([
 
 
 ---------------------------------------
+db.sync_logs.insertOne({
+    logId: "L1001",
+    productid: "P1001",
+    status: "SUCCESS",
+    message: "Product inserted successfully",
+    timestamp: new Date()
+})
+
+
+----
+db.sync_logs.insertMany([
+  {
+    logId: "L1002",
+    productid: "P1002",
+    status: "SUCCESS",
+    message: "Product inserted successfully",
+    timestamp: new Date()
+  },
+  {
+    logId: "L1003",
+    productid: "P1003",
+    status: "SUCCESS",
+    message: "Product inserted successfully",
+    timestamp: new Date()
+  }
+])
+
+
+
+----------------------------------------
 33d1GaW3agD8avpcbQ7jdNC3UOP_6PghXU4ifbwLoaNvSaBVL
