@@ -6,6 +6,8 @@ npm i express dotenv
 
 PORT=3000
 API_TOKEN=my-secret-token-abc123
+API_TOKEN=my-secret-token-abc123
+MONGO_URI=mongodb://localhost:27017/inventoryDB
 
 
 ---------------------------------
