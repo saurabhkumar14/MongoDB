@@ -1,0 +1,77 @@
+Salesforce to ServiceNow Data Integration Approaches
+This document explains three different approaches to pull data from Salesforce into ServiceNow. Each approach has its own advantages and is suitable for different business and technical needs.
+
+1. Using Out-of-the-Box (OOB) Salesforce Spoke in ServiceNow
+ServiceNow provides an Out-of-the-Box Salesforce Spoke that can be used with Flow Designer to integrate Salesforce and ServiceNow without heavy coding.
+
+Key Features:
+- Pre-built Salesforce actions
+- OAuth-based authentication
+- Minimal scripting required
+
+High-Level Steps:
+1. Install Salesforce Spoke from ServiceNow Store.
+2. Configure Salesforce OAuth credentials.
+3. Create a Flow in Flow Designer.
+4. Use Salesforce Spoke actions to fetch records.
+5. Map Salesforce fields to ServiceNow tables.
+
+Pros:
+- Faster implementation
+- Low maintenance
+- Best for standard use cases
+
+Cons:
+- Limited customization
+- Depends on available spoke actions
+
+2. Using Scripted REST API Integration
+Scripted REST API integration provides maximum flexibility by using custom scripts to call Salesforce REST APIs and process the response in ServiceNow.
+
+Key Components:
+- RESTMessageV2
+- OAuth or Basic Authentication
+- Script Includes / Business Rules
+
+High-Level Steps:
+1. Create a REST Message in ServiceNow.
+2. Configure Salesforce authentication.
+3. Call Salesforce REST APIs using scripts.
+4. Parse JSON response.
+5. Insert or update records in ServiceNow tables.
+
+Pros:
+- Highly customizable
+- Supports complex logic
+- Suitable for advanced integrations
+
+Cons:
+- Requires scripting knowledge
+- Higher maintenance effort
+
+3. Using ServiceNow Flow Designer
+Flow Designer can be used with either REST steps or integration spokes to pull data from Salesforce in a low-code manner.
+
+Key Features:
+- Low-code / no-code approach
+- Easy monitoring and error handling
+- Reusable flows and subflows
+
+High-Level Steps:
+1. Create a new Flow in Flow Designer.
+2. Choose a trigger (schedule or event-based).
+3. Add REST or Salesforce Spoke actions.
+4. Transform and map data.
+5. Insert data into ServiceNow tables.
+
+Pros:
+- Easy to maintain
+- Visual and user-friendly
+- Faster development
+
+Cons:
+- Less flexible than full scripting
+- Performance limitations for large datasets
+
+Conclusion
+Choosing the right integration approach depends on complexity, performance needs, and maintenance capabilities. OOB Spoke and Flow Designer are ideal for standard use cases, while Scripted REST API is best for complex and highly customized integrations.
